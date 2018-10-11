@@ -1,3 +1,3 @@
-returnFirstTwoDrivers();
 
-const returnFirstTwoDrivers = (drivers => drivers.slice(0,2))();
+
+const returnFirstTwoDrivers = (function(drivers){drivers.slice(0,2)}();
